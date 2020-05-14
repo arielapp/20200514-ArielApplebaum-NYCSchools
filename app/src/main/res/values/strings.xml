@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">20200514-ArielApplebaum-NYCSchools</string>
+    <string name="SATCriticalReading">Critical Reading Score</string>
+    <string name="SATMath">Math Score</string>
+    <string name="SATWriting">Writing Score</string>
+
+</resources>
