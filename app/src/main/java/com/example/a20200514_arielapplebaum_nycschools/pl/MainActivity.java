@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements SchoolDataImpleme
         List<HashMap<String, String>> schoolList = new ArrayList<>();
         for (School school : schools) {
             HashMap<String, String> schoolMap = new HashMap<>();
+
             // School information
             schoolMap.put(School.Fields.DBN.getValue(), school.getDbn());
             schoolMap.put(School.Fields.NAME.getValue(), school.getName());
@@ -55,6 +56,7 @@ public class MainActivity extends AppCompatActivity implements SchoolDataImpleme
             }
             schoolList.add(schoolMap);
         }
+
         String[] from = {School.Fields.DBN.getValue(), School.Fields.NAME.getValue(), School.Fields.PHONE.getValue(), School.Fields.EMAIL.getValue()};
         int[] to = {0, R.id.item_name, R.id.item_description, 0};
         if (NYCListView != null) {
