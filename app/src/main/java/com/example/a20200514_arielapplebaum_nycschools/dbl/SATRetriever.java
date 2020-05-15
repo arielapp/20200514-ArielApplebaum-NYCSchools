@@ -70,6 +70,7 @@ public class SATRetriever extends AsyncTask<String, Void, ArrayList<School>> {
                     if (!jsonObject.getString(School.Fields.WRITING.getValue()).equals("")) {
                         currentSchool.setSATWriting(jsonObject.getString(School.Fields.WRITING.getValue()));
                     }
+
                 }
 
                 // Add current School to Array of Schools

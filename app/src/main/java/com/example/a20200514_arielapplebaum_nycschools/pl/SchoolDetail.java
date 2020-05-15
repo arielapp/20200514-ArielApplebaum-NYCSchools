@@ -46,6 +46,7 @@ public class SchoolDetail extends AppCompatActivity implements SchoolDataImpleme
             TextView schoolPhone = findViewById(R.id.detailSchoolPhone);
             TextView schoolEmail = findViewById(R.id.detailSchoolEmail);
 
+
             // Initialize Action Buttons
             FloatingActionButton phoneButton = findViewById(R.id.detailPhoneActionButton);
             phoneButton.setOnClickListener(new View.OnClickListener() {

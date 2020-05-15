@@ -7,6 +7,7 @@
     android:backgroundTint="@color/TintBackground">
 
     <TextView
+
         android:id="@+id/item_name"
         style="@style/item_title_style"
         android:layout_width="0dp"

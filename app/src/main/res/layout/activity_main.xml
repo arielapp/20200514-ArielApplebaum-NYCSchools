@@ -7,6 +7,7 @@
     tools:context=".pl.MainActivity">
 
     <ListView
+
         android:id="@+id/NYCListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

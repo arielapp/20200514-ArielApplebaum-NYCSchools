@@ -7,4 +7,5 @@ public interface SchoolDataImplementer {
     void AttachData(ArrayList<School> schools);
 
     void HandleError(String error);
+
 }

@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements SchoolDataImpleme
         SchoolRetriever schoolRetriever = new SchoolRetriever(MainActivity.this);
         String schoolsAPI = "https://data.cityofnewyork.us/resource/s3k6-pzi2.json";
         schoolRetriever.execute(schoolsAPI);
+
     }
 
     @Override

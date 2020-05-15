@@ -18,6 +18,7 @@ public class School {
         }
     }
 
+
     private String dbn;
     private String Name;
     private String phone;

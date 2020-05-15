@@ -25,6 +25,7 @@ public class SchoolRetriever extends AsyncTask<String, Void, ArrayList<School>> 
     private WeakReference<Context> contextRef;
     private String error;
 
+
     public SchoolRetriever(Context context) {
         this.contextRef = new WeakReference<>(context);
     }
