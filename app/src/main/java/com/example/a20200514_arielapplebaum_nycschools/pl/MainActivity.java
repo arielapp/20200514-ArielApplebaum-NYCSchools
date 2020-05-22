@@ -23,6 +23,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements SchoolDataImplementer {
 
     private ListView NYCListView;
+    private List<HashMap<String, String>> schoolList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,8 +38,11 @@ public class MainActivity extends AppCompatActivity implements SchoolDataImpleme
 
     @Override
     public void AttachData(ArrayList<School> schools) {
+
         // create the list of schools
-        List<HashMap<String, String>> schoolList = new ArrayList<>();
+        schoolList = new ArrayList<>();
+
+
         for (School school : schools) {
             HashMap<String, String> schoolMap = new HashMap<>();
 
@@ -84,6 +88,10 @@ public class MainActivity extends AppCompatActivity implements SchoolDataImpleme
                 }
             });
         }
+    }
+
+    public List<HashMap<String, String>> getSchoolList() {
+        return schoolList;
     }
 
     @Override
